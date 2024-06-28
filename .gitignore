@@ -26,6 +26,7 @@ rust-project.json
 # VS Code workspace settings
 .vscode/
 # Except for specific shared settings
+!.vscode
 !.vscode/extensions.json
 
 # IntelliJ IDEA module files
