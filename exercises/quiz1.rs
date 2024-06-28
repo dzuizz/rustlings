@@ -16,7 +16,10 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+// Used u32 type because no. of apples >= 0
+fn calculate_price_of_apples(apples: u32) -> u32 {
+    if apples > 40 { apples } else { apples * 2 }
+}
 
 // Don't modify this function!
 #[test]
