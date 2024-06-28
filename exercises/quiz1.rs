@@ -13,8 +13,6 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
 // Used u32 type because no. of apples >= 0
 fn calculate_price_of_apples(apples: u32) -> u32 {
