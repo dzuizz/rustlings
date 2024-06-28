@@ -1,18 +1,78 @@
+# Vim swap files
 *.swp
+
+# Compiled target directory
 target/
+
+# Backup Rust source files
 **/*.rs.bk
+
+# macOS Finder metadata
 .DS_Store
+
+# Windows debug files
 *.pdb
+
+# Clippy exercises files
 exercises/clippy/Cargo.toml
 exercises/clippy/Cargo.lock
+
+# Rust project configuration file
 rust-project.json
-.idea
-.vscode/*
+
+# JetBrains IDE project files
+.idea/
+
+# VS Code workspace settings
+.vscode/
+# Except for specific shared settings
 !.vscode/extensions.json
+
+# IntelliJ IDEA module files
 *.iml
+
+# Compiled object files
 *.o
+
+# Public directory (if used for build outputs or similar)
 public/
+
+# direnv environment directory
 .direnv/
 
 # Local Netlify folder
 .netlify
+
+# Python virtual environment
+venv/
+.env
+
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.bak.*
+
+# Build directories
+build/
+dist/
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# Yarn integrity file
+.yarn-integrity
+
+# Ignore generated documentation
+docs/
+
